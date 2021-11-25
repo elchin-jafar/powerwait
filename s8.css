@@ -1,0 +1,45 @@
+@media(max-width:1240px){
+    .container-8>div>i{
+        visibility: hidden;
+    }
+}
+
+.s8{
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9.5rem;
+}
+
+.container-8{
+    width: 50vw;
+    position: relative;
+}
+.container-8>h5{
+    font-family: var(--gill);
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 4.9rem;
+}
+
+.container-8>div{
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 3.6rem;
+}
+
+.container-8>div:last-child{
+    margin-bottom: 0;
+}
+
+.container-8>div>img{
+    margin-right: 1.8rem;
+}
+
+.container-8>div>i{
+    position: absolute;
+    right: 0;
+}

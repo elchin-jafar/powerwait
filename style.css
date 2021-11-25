@@ -1,0 +1,251 @@
+@import url('http://fonts.cdnfonts.com/css/gill-sans-mt');
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+*{
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    --prima: #000;
+    --secunda: #003D2B;
+    --tertia: #025F44;
+    --bc1: #E4C2B1;
+    --bc2: #B3BDCC;
+    --montserrat:'Montserrat', sans-serif;
+    --gill:'Gill Sans MT', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Gill Sans MT', sans-serif; */
+
+}
+
+header{
+    padding: 0 14rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+header nav h1{
+    font-family: 'Gill Sans MT', sans-serif; 
+    font-size: 3.5rem;
+    color: var(--secunda);
+    /* border: 1px solid #000000; */
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+    /* "font-family: 'Gill Sans MT'
+    , sans-serif font-size: 3.5rem, 
+    color: var(--secunda),
+            border: 1px solid #000000,
+             text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);" */
+
+a{
+    text-decoration: none;
+}
+
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+header nav ul li a{
+    color: var(--secunda);
+}
+
+header nav ul li #first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 12rem;
+}
+
+header nav ul li #last-child{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0;
+    padding: 1.4rem 3.2rem;
+    border-radius: 1rem;
+    background-color: var(--tertia);
+    border: 1px solid #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+header nav ul li{
+    margin-right: 5rem;
+}
+/* header nav ul li:last-child{
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    padding: 1.4rem 3.2rem;
+    border-radius: 1rem;
+    background-color: var(--tertia);
+    border: 1px solid #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+} */
+
+@media (max-width: 1240px){
+    header{
+        height: 35rem;
+        background: linear-gradient(to right, #22c1c3, #fdbb2d);
+    }
+    nav{
+        display: flex;
+        flex-direction: column ;
+        height: inherit;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        height: inherit;
+    }
+    header nav ul li{
+        border: 2px solid var(--tertia);
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul li:last-child{
+        margin-top: 0.5rem;
+        border: none;
+    }
+}
+    
+
+
+.s1{
+    display: flex;
+}
+.s1>div{
+    width: 50vw;   
+}
+
+.s1>div:last-child{
+    width: 50vw;
+}
+
+.s1 div:first-child{
+    background-color: var(--bc1);
+    padding-left:14rem;
+    padding-bottom: 2rem;
+}
+
+.s1 div:last-child{
+    background-image: url(./img/Image-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s1 h2{
+    font-family: 'Gill Sans MT', sans-serif;
+    font-size: 7rem;
+    line-height: 7rem;
+    text-transform: uppercase;
+    margin-top: 9rem;
+}
+
+.s1 ul{
+    list-style-type: none;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.s1 ul li{
+    margin-bottom: 3rem;
+}
+
+.s1 ul li:last-child{
+    margin-bottom: 0;
+}
+
+.tick{
+    position: relative;
+}
+.tick::before{
+    content: url(./img/Tick_icon-3.svg);
+    position: absolute;
+    left: -4rem;
+}
+
+#btn-quote{
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2rem 4rem;
+    background-color: var(--tertia);
+    border-radius: 1rem;
+    margin-top: 2.5rem;
+}
+
+#cost-quote{
+    display: inline-block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 2.4rem;
+}
+
+.s2{
+    display: flex;
+    align-items: center;
+    padding:10.5rem 8rem 10.5rem 13.9rem;
+    background-color: #EFEFEF;
+}
+
+.s2-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6C1B2;
+    width: 7.4rem;
+    height: 7.4rem;
+    border-radius: 50%;
+}
+
+.flex-container{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.flex-child h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
+
+.flex-child p{
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #6A6E6D;
+}
+
+.belonging-child{
+    display: flex;
+    align-items: center;
+}
+
+.flex-child{
+    display: flex;
+    flex-direction: column;
+}

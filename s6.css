@@ -1,0 +1,46 @@
+.s6{
+    display: flex;
+    background-color: #EFEFEF;
+    height: 38rem;
+}
+
+.s6>div:first-child, .s6>div:last-child{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s6>div>span:first-child{
+    color: #025F44;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.s6>div>a{
+    color: #045725;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    margin:1rem 0;
+}
+
+.s6>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s6>div>.star div{
+    color: #025F44;
+    margin-right: 1rem;
+    transform: scale(2);
+}
+
+.s6>div>.star div:last-child{
+    clip-path: polygon(100% 0, 75% 14%, 54% 31%, 45% 50%, 43% 71%, 46% 89%, 78% 100%, 0 100%, 0 0);
+}

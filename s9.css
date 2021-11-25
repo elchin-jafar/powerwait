@@ -1,0 +1,18 @@
+.s9{
+    background-color: #E4C2B1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+
+.s9>h4{
+    margin-bottom: 3.2rem;
+    font-family: var(--gill);
+    font-size: 6.5rem;
+}
+
+.s9>p{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
