@@ -1,0 +1,73 @@
+footer .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 6.2rem 14rem;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li{
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+    text-transform: capitalize;
+    margin-bottom: 1.9rem;
+}
+.company>div, .products>div, .region>div{
+    font-family: var(--gill);
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #003D2B;
+    line-height: 3.5rem;
+}
+
+#social-icons{
+    display: flex;
+}
+
+#social-icons a{
+    width: 4.6rem;
+    height: 4.6rem;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4.5px;
+}
+
+#social-icons i{
+    color: #fff;
+}
+
+#region{
+    width: 38.8rem;
+    height: 3.5rem;
+    border: 3px solid #F0F0F0;
+    border-radius: 4px;
+}
+
+#region-store-logo{
+    transition-property: position;
+    position: relative;
+    left: -2.4rem;
+}
+
+#region-store-logo:hover{
+    position: relative;
+    top: -3px;
+}
+
+.bottom{
+    padding: 8rem 14rem;
+}
+
+.bottom>p:first-child{
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+.bottom>p:last-child{
+    font-size: 2.2rem;
+    font-weight: 400;
+}
