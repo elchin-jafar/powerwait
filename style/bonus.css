@@ -1,0 +1,33 @@
+.bonus{
+    width: 100vw;
+    padding: 10.5rem 14rem;
+}
+
+.bonus> .container{
+    display: flex;
+}
+
+.bonus> .container> .wrapper1{
+    margin-right: 5rem;
+}
+
+.bonus> .container> .wrapper1:last-child{
+    margin-right: 0;
+}
+
+.bonus>.container>.wrapper1>.flex{
+    display: flex;
+    align-items: center;
+}
+
+.bonus>.container>.wrapper1>.flex>.icon-holder{
+    width: 7.4rem;
+    height: 7.4rem;
+    margin-right: 1rem;
+    background-color: #E6C1B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
